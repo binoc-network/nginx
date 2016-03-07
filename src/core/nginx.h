@@ -10,13 +10,15 @@
 
 
 #define nginx_version      1009012
-#define NGINX_VERSION      "1.9.12-BinOC"
-#define NGINX_VER          "Spectrum/" NGINX_VERSION
+#define NGINX_VERSION      "1.9.12"
+#define NGINX_VER          "nginx/" NGINX_VERSION
+#define BINOC_VERSION      "1.0.0a1"
+#define BINOC_VER          "Spectrum/" BINOC_VERSION
 
 #ifdef NGX_BUILD
-#define NGINX_VER_BUILD    NGINX_VER " (" NGX_BUILD ")"
+#define NGINX_VER_BUILD    NGINX_VER " " BINOC_VER " Build: " NGX_BUILD
 #else
-#define NGINX_VER_BUILD    NGINX_VER
+#define NGINX_VER_BUILD    NGINX_VER " " BINOC_VER
 #endif
 
 #define NGINX_VAR          "NGINX"
