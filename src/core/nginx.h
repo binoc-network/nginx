@@ -10,8 +10,8 @@
 
 
 #define nginx_version      1009012
-#define NGINX_VERSION      "1.9.12"
-#define NGINX_VER          "BinOC-nginx/" NGINX_VERSION
+#define NGINX_VERSION      "1.9.12-BinOC"
+#define NGINX_VER          "Spectrum/" NGINX_VERSION
 
 #ifdef NGX_BUILD
 #define NGINX_VER_BUILD    NGINX_VER " (" NGX_BUILD ")"
